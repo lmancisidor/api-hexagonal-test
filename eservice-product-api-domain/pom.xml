@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>eservice-product-api-domain</artifactId>
+	<groupId>com.company.eserviceproduct</groupId>
+	<name>eservice-product-api-domain</name>
+	<url>http://maven.apache.org</url>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<parent>
+		<artifactId>eservice-product-api</artifactId>
+		<groupId>com.company.eserviceproduct</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>${spring.boot.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>${spring.boot.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<scope>test</scope>
+			<version>${junit-jupiter.version}</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>eservice-product-api-domain</finalName>
+		<plugins>
+	        <plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+	            <configuration>
+                        <skip>true</skip>
+                </configuration>
+	        </plugin>
+    	</plugins>
+	</build>
+
+</project>

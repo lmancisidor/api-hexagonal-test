@@ -1,0 +1,4 @@
+com\company\eserviceproduct\application\product\port\outbound\ProductServiceOutboundPort.class
+com\company\eserviceproduct\application\config\ConfigScanApplication.class
+com\company\eserviceproduct\application\product\adapter\ProductServiceInboundAdapter.class
+com\company\eserviceproduct\application\product\port\inbound\ProductServiceInboundPort.class

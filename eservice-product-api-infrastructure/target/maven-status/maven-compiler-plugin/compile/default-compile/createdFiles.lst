@@ -1,0 +1,11 @@
+com\company\eserviceproduct\infrastructure\product\dto\inbound\ProductRequestToCreate.class
+com\company\eserviceproduct\infrastructure\EserviceProductApplication.class
+com\company\eserviceproduct\infrastructure\product\adapter\ProductJpaAdapter.class
+com\company\eserviceproduct\infrastructure\product\persistence\ProductJpaResilient.class
+com\company\eserviceproduct\infrastructure\product\persistence\ProductJpaRepository.class
+com\company\eserviceproduct\infrastructure\product\config\ConfigModelMapper.class
+com\company\eserviceproduct\infrastructure\product\controller\ProductController.class
+com\company\eserviceproduct\infrastructure\product\dto\outbound\ProductResponse.class
+com\company\eserviceproduct\infrastructure\product\adapter\ProductResilienceAdapter.class
+com\company\eserviceproduct\infrastructure\product\entity\ProductEntity.class
+com\company\eserviceproduct\infrastructure\product\mapper\ProductMapper.class
